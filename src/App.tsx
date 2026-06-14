@@ -956,7 +956,7 @@ export default function App() {
             {/* Quick Stat Pill Icons Row */}
             <div className="grid grid-cols-3 gap-3 mb-10">
               {[
-                { val: '16+', labelEn: 'YEARS OF WORK', labelAm: 'የስራ ዓமታት' },
+                { val: '16+', labelEn: 'YEARS OF WORK', labelAm: 'የስራ ዓመታት' },
                 { val: '13+', labelEn: 'EMPLOYERS', labelAm: 'ያገለገሉ አሰሪዎች' },
                 { val: 'ETH', labelEn: 'COUNTRY', labelAm: 'ሀገር / ኢትዮጵያ' }
               ].map((stat, i) => (
@@ -1027,7 +1027,7 @@ export default function App() {
               <div className="mb-4">
                 <BilingualBlock 
                   en={<span className="font-bebas text-[10px] text-gold-primary tracking-[0.35em] block">LZ PROFILES //</span>}
-                  am={<span className="font-bebas text-[10px] text-gold-primary tracking-[0.25em] block text-right md:text-left font-ethiopic">የህይወት ታሪክ //</span>}
+                  am={<span className="font-bebas text-[10px] text-gold-primary tracking-[0.25em] block text-right md:text-left font-ethiopic">ፕሮፋይል //</span>}
                 />
               </div>
 
@@ -1054,9 +1054,9 @@ export default function App() {
                   }
                   am={
                     <p className="text-lux-white/75 font-ethiopic text-[15.5px] md:text-[17px] leading-[2.15] space-y-4">
-                      በኢትዮጵያ ውስጥ ካሉ ግንባታ ኩባንያዎች ጋር ከ16 ዓመት በላይ የፎርማን እና ጀኔራል ፎርማን ልምድ ያለው ታታሪ የህንፃ ስራ ባለሙያ። 
+                      በኢትዮጵያ ውስጥ ካሉ ግንባታ ኩባንያዎች ጋር ከ16 ዓመት በላይ የፎርማን እና ጀኔራል ፎርማን ልምድ ያለው ታታሪ የህንፃ ግንባታ ስራ ባለሙያ። 
                       <span className="block mt-4">
-                        ከሁለጌብ ቴክኒካል ሙያ ማሰልጠኛ ማዕከል የህንፃ ስራ ዲፕሎማ ያለው፣ በአዲስ አበባ ትምህርት ቢሮ የተረጋገጠ። በጣቢያ አመራር፣ የግንባታ ጥራት እና ፕሮጀክት አስተዳደር ለቁርጠኝነቱና ለታማኝነቱ ይታወቃል።
+                        ከሁለጌብ ቴክኒካል ሙያ ማሰልጠኛ ማዕከል የህንፃ ስራ ዲፕሎማ ያለው፣ በአዲስ አበባ ትምህርት ቢሮ የተረጋገጠ። በጣቢያ አመራር፣ የህንፃ ግንባታ ጥራት እና ፕሮጀክት አስተዳደር ለቁርጠኝነቱና ለታማኝነቱ ይታወቃል።
                       </span>
                     </p>
                   }
@@ -1185,7 +1185,7 @@ export default function App() {
             {/* Right Column: Three Stat Counter metrics displays */}
             <div className="lg:col-span-5 space-y-6">
               {[
-                { count: 16, suffix: ' Years', titleEn: 'Proven Site Experience', titleAm: 'የተረጋገጠ የጣቢያ ልምድ' },
+                { count: 16, suffix: ' Years', titleEn: 'Proven Site Experience', titleAm: 'የተረጋገጠ  ልምድ' },
                 { count: 13, suffix: '+', titleEn: 'Employers in Registry', titleAm: 'የስራ ታሪክ ኩባንያዎች' },
                 { count: 14, suffix: ' Certificates', titleEn: 'Verified Scanned Credentials', titleAm: 'ኦሪጅናል ምስክር ወረቀቶች' }
               ].map((card, i) => (
