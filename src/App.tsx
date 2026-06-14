@@ -922,7 +922,7 @@ export default function App() {
             <div className="mb-6 overflow-hidden">
               <BilingualBlock 
                 en={<p className="font-bebas text-[16px] md:text-[19.5px] tracking-[0.3em] text-gold-bright font-bold">CONSTRUCTION PROFESSIONAL · HAWASSA, ETHIOPIA</p>}
-                am={<p className="font-bebas text-[15.5px] md:text-[19px] tracking-[0.2em] text-gold-bright text-right md:text-left font-ethiopic font-bold">የግንባታ ባለሙያ · ሀዋሳ፣ ኢትዮጵያ</p>}
+                am={<p className="font-bebas text-[15.5px] md:text-[19px] tracking-[0.2em] text-gold-bright text-right md:text-left font-ethiopic font-bold">የህንጻ የግንባታ ባለሙያ · ሀዋሳ፣ ኢትዮጵያ</p>}
               />
             </div>
 
@@ -943,13 +943,12 @@ export default function App() {
                   className="font-sans text-[18px] md:text-[21.5px] text-lux-white hover:text-gold-bright tracking-wider uppercase transition-colors font-semibold"
                   style={{ opacity: activeLanguage === 'en' ? 1 : 0.6 }}
                 >
-                  Senior Foreman & Site Supervisor
+                  Professional Engineer Assistance
                 </div>
                 <div 
                   className="font-ethiopic text-[17.5px] md:text-[20.5px] text-lux-white hover:text-gold-bright tracking-wider text-right md:text-left transition-colors font-bold"
                   style={{ opacity: activeLanguage === 'am' ? 1 : 0.6 }}
                 >
-                  ከፍተኛ ፎርማን እና የጣቢያ ተቆጣጣሪ
                 </div>
               </div>
             </div>
@@ -1822,7 +1821,7 @@ export default function App() {
                   Proven Building construction professional with 16+ years of general site foreman supervisory experience in high-profile residential & commercial contracts across Ethiopia.
                 </p>
                 <p className="leading-relaxed font-ethiopic">
-                  በኢትዮጵያ ውስጥ በሚገኙ በርካታ የመኖሪያ እና የንግድ ህንፃ ግንባታዎች ላይ ከ16 ዓመታት በላይ ከፍ ያለ የጀነራል ፎርማንነት የጣቢያ ስራ አመራር ልምድ ያካበተ ብቁ ባለሙያ።
+                  በኢትዮጵያ ውስጥ በሚገኙ በርካታ የመኖሪያ እና የንግድ ህንፃ ግንባታዎች ላይ ከ16 ዓመታት በላይ ከፍ ያለ የጀነራል ፎርማንነት የሳይት ስራ አመራር ልምድ ያካበተ ብቁ ባለሙያ።
                 </p>
               </div>
             </div>
